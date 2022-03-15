@@ -1,3 +1,4 @@
+// 头部 nav
 export const headerLinks = [
   {
     title:"发现音乐",
@@ -25,6 +26,7 @@ export const headerLinks = [
   },
 ]
 
+// 顶部 nav
 export const footerLinks = [
   {
     title: "服务条款",
