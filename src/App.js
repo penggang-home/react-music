@@ -3,6 +3,9 @@ import React, { memo } from 'react'
 // CSS
 // import 'normalize.css'
 import '@/assets/css/reset.css'
+import "antd/dist/antd.less"
+import './App.less'
+
 
 // Component
 import Header from '@/layout/Header'

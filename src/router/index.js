@@ -6,12 +6,12 @@ import Friend from '@/views/Friend'
 import Mine from '@/views/Mine'
 
 // 二级路由
-import Album from '@/views/Discover/ChildComponents/Album'
-import Artist from '@/views/Discover/ChildComponents/Artist'
-import DjRadio from '@/views/Discover/ChildComponents/DjRadio'
-import Ranking from '@/views/Discover/ChildComponents/Ranking'
-import Recommend from '@/views/Discover/ChildComponents/Recommend'
-import Songs from '@/views/Discover/ChildComponents/Songs'
+import Album from '@/views/Discover/Album'
+import Artist from '@/views/Discover/Artist'
+import DjRadio from '@/views/Discover/DjRadio'
+import Ranking from '@/views/Discover/Ranking'
+import Recommend from '@/views/Discover/Recommend'
+import Songs from '@/views/Discover/Songs'
 
 const routes = [
   {

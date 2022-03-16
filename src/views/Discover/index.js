@@ -1,11 +1,10 @@
 // 发现页面
-import React, { memo, useEffect } from 'react'
+import React, { memo } from 'react'
 import { NavLink } from 'react-router-dom'
 import { renderRoutes } from 'react-router-config'
 import { dicoverMenu } from '@/constans/NavLink'
 
 import { DiscoverWrapper, TopMenu } from './style'
-
 
 const Discover = memo(props => {
   return (
