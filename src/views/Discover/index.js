@@ -2,7 +2,7 @@
 import React, { memo } from 'react'
 import { NavLink } from 'react-router-dom'
 import { renderRoutes } from 'react-router-config'
-import { dicoverMenu } from '@/constans/NavLink'
+import { dicoverMenu } from '@/constants'
 
 import { DiscoverWrapper, TopMenu } from './style'
 

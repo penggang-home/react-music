@@ -113,3 +113,7 @@ button {
   text-indent: -9999px;
   background: url(../images/sprite_cover.png) no-repeat -145px -57px;
 }
+
+.sprite_player{
+  background: url(../images/playbar_sprite.png) no-repeat 0 9999px;
+}

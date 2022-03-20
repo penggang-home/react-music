@@ -12,6 +12,7 @@ import DjRadio from '@/views/Discover/DjRadio'
 import Ranking from '@/views/Discover/Ranking'
 import Recommend from '@/views/Discover/Recommend'
 import Songs from '@/views/Discover/Songs'
+import Player from '@/views/Player'
 
 const routes = [
   {
@@ -51,6 +52,10 @@ const routes = [
       {
         path: '/discover/album',
         component: Album,
+      },
+      {
+        path: '/discover/player',
+        component: Player,
       },
     ],
   },

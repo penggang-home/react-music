@@ -1,6 +1,6 @@
 import React, { memo, Fragment } from 'react'
 
-import { footerLinks, footerImages } from '@/constans/NavLink'
+import { footerLinks, footerImages } from '@/constants'
 
 import { FooterWrapper, FooterLeft, FooterRight } from './style'
 

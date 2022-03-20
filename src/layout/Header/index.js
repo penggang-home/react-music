@@ -1,6 +1,6 @@
 import React, { memo } from 'react'
 
-import { headerLinks } from '@/constans/NavLink'
+import { headerLinks } from '@/constants'
 
 import { HeaderWrapper } from './style'
 import { Input } from 'antd'
