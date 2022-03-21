@@ -33,6 +33,8 @@ export const changePlayModeAction = playMode => ({
   playMode,
 })
 
+
+
 // 获取歌曲详情
 export const getSongDetailAction = ids => {
   return (dispatch, getState) => {
@@ -123,3 +125,9 @@ export const getLyricAction = id => {
     })
   }
 }
+
+// 改变当前歌词索引
+export const changeCurrentLyricIndexAction = index => ({
+  type:actionTypes.CHANGE_CURRENT_LYRIC_INDEX,
+  index
+})

@@ -5,3 +5,4 @@ export const CHANGE_PLAY_LIST = 'change_play_list'
 export const CHANGE_PLAY_MODE = 'change_play_mode'
 
 export const CHANGE_LYRIC_LIST = 'change_lyric_list'
+export const CHANGE_CURRENT_LYRIC_INDEX = "change_current_lyric_index"

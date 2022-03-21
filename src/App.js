@@ -1,4 +1,4 @@
-import React, { memo } from 'react'
+import React, { memo, Suspense } from 'react'
 
 // CSS
 // import 'normalize.css'
@@ -14,15 +14,16 @@ import PlayerBar from '@/views/Player/PlayerBar'
 
 const App = memo(() => {
   return (
-    <div>
+    <>
       <Header />
 
-      <Main />
-
+      <Suspense fallback={<h2>Loading...</h2>}>
+        <Main />
+      </Suspense>
       <Footer />
 
       <PlayerBar />
-    </div>
+    </>
   )
 })
 

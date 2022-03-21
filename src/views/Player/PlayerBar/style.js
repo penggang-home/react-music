@@ -20,6 +20,12 @@ export const PlayerBarWrapper = styled.div`
     bottom: 0;
     height: 47px;
   }
+
+  .ant-back-top .back-top{
+    border-radius: 50%;
+    border: 1px solid #6c6c6c;
+    padding: 10px;
+  }
 `
 
 export const Control = styled.div`
@@ -137,17 +143,16 @@ export const Operator = styled.div`
     cursor: pointer;
   }
 
-  .favor {
-    background-position: -88px -163px;
-    &:hover {
-      background-position: -88px -189px;
-    }
-  }
-
-  .share {
-    background-position: -114px -163px;
-    &:hover {
-      background-position: -114px -189px;
+  .left {
+    padding-top: 5px;
+    line-height: 25px;
+    .word {
+      font-size: 18px;
+      color: #ccc;
+      cursor: pointer;
+      &:hover {
+        color: #fff;
+      }
     }
   }
 
@@ -195,9 +200,9 @@ export const Operator = styled.div`
       text-align: center;
       color: #ccc;
       width: 59px;
-      background-position: -42px -68px;
+      background-position: -42px -70px;
       &:hover {
-        background-position: -42px -98px;
+        background-position: -42px -100px;
       }
     }
   }

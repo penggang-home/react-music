@@ -236,7 +236,9 @@ const initState = {
   // 0 顺序播放 1 随机播放 2 单曲循环
   playMode: 0,
   // 歌词列表
-  lyricList:[]
+  lyricList: [],
+  // 当前的歌曲索引
+  currentLyricIndex: 0,
 }
 
 const reducer = (state = initState, action) =>
@@ -258,6 +260,9 @@ const reducer = (state = initState, action) =>
         break
       case actionTypes.CHANGE_LYRIC_LIST:
         draft.lyricList = action.lyricList
+        break
+      case actionTypes.CHANGE_CURRENT_LYRIC_INDEX:
+        draft.currentLyricIndex = action.index
         break
       default:
         return state
